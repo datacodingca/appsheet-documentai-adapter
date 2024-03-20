@@ -1,7 +1,7 @@
 export servicename=document-ai-adapter
 export PROJECT_ID=$(gcloud config get-value project)
 export REGION=europe-west1
-export ENV=GCP_DOCAI_REGION=eu,GCP_DOCAI_PROCESSOR_ID=eade9760f6f088f
+export ENV=GCP_DOCAI_REGION=eu,GCP_DOCAI_PROCESSOR_ID=f1ea366b3c63a6cf
 
 # docker build -t local/$servicename .
 # docker tag local/$servicename eu.gcr.io/$PROJECT_ID/$servicename
